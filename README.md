@@ -57,8 +57,7 @@ Dropout Regularisation technique was used to prevent overfitting of the model.
 
 The Detailed and scalar features were learnt separately and then were combined later in the model before generation of the final output.
 
-![conv Net Flow Image]
-(https://github.com/viv1-m/Prediciton-of-lifetime-of-Li-ion-batteries/blob/master/battery_prediction_model.png?raw=True)
+![Conv Net Flow Image](https://user-images.githubusercontent.com/40691013/93356983-7530c980-f85d-11ea-9c0d-62e3c6f7be96.png)
 
 
 # Training and Validation
@@ -68,8 +67,7 @@ Various hyperparameters were used.
 
 Best validation accuracy was achieved with 64 epochs, 0.3 dropout rate,0.0001 learning rate, batch size of 32 along with kernels of (3,9) for conv2d layers and (3) for conv1d layers.
 
-![training and validation losses]
-(https://miro.medium.com/max/645/1*GlKTXNA4qheD0MB8m5mqgg.png)
+![training and validation losses](https://miro.medium.com/max/645/1*GlKTXNA4qheD0MB8m5mqgg.png)
 
 # Future Goals
 
