@@ -34,7 +34,7 @@ Instead, we interpolated charge and temperature over the voltage and resampled t
 Now, the processed data includes scalar features (such as Internal resistance, cycle time, charge Ah for cycle) and array features (such as linearly interpolated charge and temperature points) for each cycle. 
 
 
-# Further Preprocessing the data into input and target features
+# Further Processing the data into input and target features
 
 The framework used for the training was Tensorflow 2.0 with keras as backend.
 
