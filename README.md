@@ -69,6 +69,19 @@ Best validation accuracy was achieved with 64 epochs, 0.3 dropout rate,0.0001 le
 
 ![training and validation losses](https://miro.medium.com/max/645/1*GlKTXNA4qheD0MB8m5mqgg.png)
 
+# Testing And Prediction results
+
+The model was tested against 186 batches (each containing 32 windows withjeach window having 20 cycles ). 
+
+Net loss of 0.01350 wasjobserved along with ajmean absolute errorj(MAE) ofj161.4882 for thejcharge-discharge cyclesjcompleted and a meanjabsolute error (MAE) of 171.2034 for remainingjcycles (battery remaining) lifetime was observed.
+
+The results could bejimproved using higher trainingjdata and a larger number of epochs( ~1000 epochs).
+
+Figure : Predictions for first 700 windows
+
+
+![test results](https://github.com/viv1-m/Prediciton-of-lifetime-of-Li-ion-batteries/blob/master/test_results.png?raw=True)
+
 # Future Goals
 
 Further goals are:
